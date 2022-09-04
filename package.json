@@ -1,0 +1,21 @@
+{
+  "name": "vaakian.me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nr docs:dev",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:serve": "vitepress serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "unocss": "^0.45.15",
+    "vitepress": "1.0.0-alpha.13",
+    "vue": "^3.2.38"
+  }
+}
